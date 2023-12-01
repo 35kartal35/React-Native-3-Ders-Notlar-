@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function HomeScreen({navigation}) {
   return (
-    <View style={{ flex: 1, alignItems: 'center',gap: 5, padding: 5,margin: 5, justifyContent: 'center' }}>
+    <View style={{ flex: 1, alignItems: 'center',gap: 5, padding: 5,margin: 5, justifyContent: 'center', backgroundColor: '#fce2b1' }}>
       <Text style={{fontSize: 15, marginBottom: 20}}>Yavuz Sultan Selim Ortaokulu 7. Sınıf Ders Notları</Text>
       <Button
         title="Matematik"
